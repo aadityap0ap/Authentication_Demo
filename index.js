@@ -29,7 +29,7 @@ function auth(req, res, next) {
                 })
             } else {
                 req.user = decoded;
-                next();
+                 next();
             }
         })
     } else {
