@@ -35,7 +35,7 @@
     function logout() {
     localStorage.removeItem("token");
     document.getElementById("information").innerHTML = "";
-    alert("Logged out");
+    alert("You are Logged out");
 }
      async function getUserInformation() {
     const token = localStorage.getItem("token");
